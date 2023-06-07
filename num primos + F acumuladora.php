@@ -8,6 +8,7 @@ do {$compra=readline( "ingrese el precio:");
 }while (strtoupper ($resp) =='S');{
     echo " el total vendido es de $: $acumuladora  ".PHP_EOL;
     $promedio =$acumuladora/$contadora;
-    echo "el precio de venta fue :$ $promedio";
+    echo "el precio de venta fue :$ $promedio".PHP_EOL ;
+    echo "gracias poe su compra";
 
 }
